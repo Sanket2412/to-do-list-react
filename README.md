@@ -1,3 +1,10 @@
+# To-do-List
+The Project is completely done in react. which contains basics of react like how hooks works and how to divide code in different components.etc
+
+Software Requirement to run this project is Node js 
+
+For Running this project steps are as folllows:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +75,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
