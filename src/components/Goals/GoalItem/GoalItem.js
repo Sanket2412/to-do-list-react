@@ -1,12 +1,12 @@
 import React from "react";
-import styles from "./GoalItem.module.css";
+import "./GoalItem.module.css";
 
 const GoalItem = (props) => {
   const deleteHandler = () => {
     props.onDelete(props.id);
   };
   return (
-    <li className={styles.goal - item} onClick={deleteHandler}>
+    <li className="goal-item" onClick={deleteHandler}>
       {props.children}
     </li>
   );

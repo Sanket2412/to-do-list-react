@@ -1,9 +1,9 @@
 import React from "react";
 import GoalItem from "../GoalItem/GoalItem";
-import styles from "./GoalList.module.css";
+import "./GoalList.module.css";
 
 const GoalList = (props) => {
-  <ul className={styles.goal - list}>
+  <ul className="goal-list">
     {props.items.map((goal) => (
       <GoalItem key={goal.id} id={goal.id} onDelete={props.onDeleteItem}>
         {goal.text}

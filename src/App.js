@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+import React, { Fragment, useState } from "react";
+import GoalList from "./components/Goals/GoalList/GoalList";
+import GoalInput from "./components/Goals/GoalInput/GoalInput";
 import './App.css';
 
-function App() {
+const App = () => {
+  const [toDoGoals, setToDoGoals] = useState([
+    { text: "Learn React", id: "g1" },
+    { text: "Implement React", id: "g2" },
+  ]);
+  const addGoalHandler = (enteredText) => {
+    setToDoGoals((prevGoals) => {
+      const updatedGoals = [...prevGoals];
+      updatedGoals.unshift({ text: enteredText, id: Math.random().toString() });
+      return updatedGoals;
+    });
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="goals">
+      <section id="goal-form">
+        <GoalInput onAddGoal={addGoalHandler} />
+      </section>
     </div>
   );
-}
-
+};
 export default App;
