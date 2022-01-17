@@ -3,7 +3,7 @@ The Project is completely done in react. which contains basics of react like how
 
 Software Requirement to run this project is Node js 
 
-For Running this project steps are as folllows:
+For Running this project steps are as follows:
 
 # Getting Started with Create React App
 
