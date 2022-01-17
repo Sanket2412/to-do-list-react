@@ -1,5 +1,5 @@
 # To-do-List
-The Project is completely done in react. which contains basics of react like how hooks works and how to divide code in different components.etc
+The Project is completely done in react without backend you can add firebase,which contains basics of react like how hooks works and how to divide code in different components.etc
 
 Software Requirement to run this project is Node js 
 
