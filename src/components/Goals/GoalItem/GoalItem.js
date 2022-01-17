@@ -1,5 +1,5 @@
 import React from "react";
-import "./GoalItem.module.css";
+import "./GoalItem.css";
 
 const GoalItem = (props) => {
   const deleteHandler = () => {
